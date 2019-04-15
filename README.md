@@ -1,4 +1,4 @@
-参考 (vue-cli-mock)[https://github.com/carrotz/vue-cli-mock] ;
+参考 (vue-mock-cli)[https://github.com/carrotz/vue-mock-cli] ;
 
 表示非常感谢 @carrotz
 
@@ -41,7 +41,7 @@
 
 [TOC]
 
-# vue-cli-mock
+# vue-mock-cli
 vue-cli 添加本地mock服务框架
 
 ``` bash
