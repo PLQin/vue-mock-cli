@@ -1,0 +1,13 @@
+{
+  "status": true,
+  "msg": "success",
+  "data": {
+    "avatar": "https://tvax4.sinaimg.cn/crop.0.0.1080.1080.180/9cef242ely8fyttm6pe26j20u00u0wg3.jpg",
+    "introduction": "admin",
+    "name": "admin",
+    "roles": [
+      "admin"
+    ],
+    "token": "QP_Q7C3wSk8PWI2lNqG7AzAwi_yzINiE"
+  }
+}

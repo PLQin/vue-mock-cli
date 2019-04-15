@@ -1,0 +1,104 @@
+[
+  {
+    "board_id": "1",
+    "board_name": "鹏V1看板",
+    "quota_data": [
+      {
+        "quota_id": "1",
+        "quota_name": "点击与浏览的总次数",
+        "measures": "{\n    \"from_date\": \"2019-03-26\",\n    \"to_date\": \"2019-03-26\",\n    \"event_type\": 2,\n    \"chart_type\": \"linear_graph\",\n    \"unit\": \"day\",\n    \"kpi_type\": 1,\n    \"measures\": [\n        {\n            \"event_name\": \"WebClick\",\n            \"aggregator\": \"general\",\n            \"filter\": {\n                \"conditions\": [],\n                \"relation\": \"or\"\n            }\n        },\n        {\n            \"event_name\": \"pageview\",\n            \"aggregator\": \"general\",\n            \"filter\": {\n                \"conditions\": [],\n                \"relation\": \"or\"\n            }\n        }\n    ]\n}",
+        "remarks": "点击与浏览的总次数",
+        "config": "{\n    \"name\": \"点击与浏览的总次数\",\n    \"dateRange\": [\n        \"2019-03-26T11:16:11.045Z\",\n        \"2019-03-26T11:16:11.045Z\"\n    ],\n    \"unit\": \"day\",\n    \"showWay\": \"linear_graph\",\n    \"showSize\": \"中\",\n    \"from_date\": \"2019-03-26\",\n    \"to_date\": \"2019-03-26\"\n}"
+      },
+      {
+        "quota_id": "30",
+        "quota_name": "鹏v11测试漏斗",
+        "measures": "{\"steps\":[{\"event_name\":\"pageview\",\"filter\":{\"relation\":\"and\",\"conditions\":[{\"field\":\"url\",\"function\":\"notEqual\",\"params\":[\"123\",\"\"]}]}},{\"event_name\":\"login\",\"filter\":{\"relation\":\"and\",\"conditions\":[{\"field\":\"page_title\",\"function\":\"notEqual\",\"params\":[\"2\",\"\"]}]}}]}",
+        "remarks": null,
+        "config": "{\"username\":\"admin\",\"create_time\":\"2019-03-26\",\"update_time\":\"2019-03-26\",\"funnel_name\":\"\\u9e4fv1\\u6d4b\\u8bd5\\u6f0f\\u6597\",\"form_string\":\"{\\\"steps\\\":[{\\\"event_name\\\":\\\"pageview\\\",\\\"filter\\\":{\\\"relation\\\":\\\"and\\\",\\\"conditions\\\":[{\\\"field\\\":\\\"url\\\",\\\"function\\\":\\\"notEqual\\\",\\\"params\\\":[\\\"123\\\",\\\"\\\"]}]}},{\\\"event_name\\\":\\\"login\\\",\\\"filter\\\":{\\\"relation\\\":\\\"and\\\",\\\"conditions\\\":[{\\\"field\\\":\\\"page_title\\\",\\\"function\\\":\\\"notEqual\\\",\\\"params\\\":[\\\"2\\\",\\\"\\\"]}]}}]}\",\"funnel_id\":\"26\",\"first_step\":\"\\u641c\\u7d22\\u4e8b\\u4ef6\",\"last_step\":\"\\u767b\\u9646\\u4e8b\\u4ef6\",\"date\":[\"2019-03-20T13:08:50.211Z\",\"2019-03-26T13:08:50.211Z\"],\"kpi_type\":2,\"remarks\":\"\\u9e4fv11\\u6d4b\\u8bd5\\u6f0f\\u6597\\n\",\"quota_name\":\"\\u9e4fv11\\u6d4b\\u8bd5\\u6f0f\\u6597\",\"quota_id\":30}"
+      },
+      {
+        "quota_id": "30",
+        "quota_name": "鹏v11测试漏斗",
+        "measures": "{\"steps\":[{\"event_name\":\"pageview\",\"filter\":{\"relation\":\"and\",\"conditions\":[{\"field\":\"url\",\"function\":\"notEqual\",\"params\":[\"123\",\"\"]}]}},{\"event_name\":\"login\",\"filter\":{\"relation\":\"and\",\"conditions\":[{\"field\":\"page_title\",\"function\":\"notEqual\",\"params\":[\"2\",\"\"]}]}}]}",
+        "remarks": null,
+        "config": "{\"username\":\"admin\",\"create_time\":\"2019-03-26\",\"update_time\":\"2019-03-26\",\"funnel_name\":\"\\u9e4fv1\\u6d4b\\u8bd5\\u6f0f\\u6597\",\"form_string\":\"{\\\"steps\\\":[{\\\"event_name\\\":\\\"pageview\\\",\\\"filter\\\":{\\\"relation\\\":\\\"and\\\",\\\"conditions\\\":[{\\\"field\\\":\\\"url\\\",\\\"function\\\":\\\"notEqual\\\",\\\"params\\\":[\\\"123\\\",\\\"\\\"]}]}},{\\\"event_name\\\":\\\"login\\\",\\\"filter\\\":{\\\"relation\\\":\\\"and\\\",\\\"conditions\\\":[{\\\"field\\\":\\\"page_title\\\",\\\"function\\\":\\\"notEqual\\\",\\\"params\\\":[\\\"2\\\",\\\"\\\"]}]}}]}\",\"funnel_id\":\"26\",\"first_step\":\"\\u641c\\u7d22\\u4e8b\\u4ef6\",\"last_step\":\"\\u767b\\u9646\\u4e8b\\u4ef6\",\"date\":[\"2019-03-20T13:08:50.211Z\",\"2019-03-26T13:08:50.211Z\"],\"kpi_type\":2,\"remarks\":\"\\u9e4fv11\\u6d4b\\u8bd5\\u6f0f\\u6597\\n\",\"quota_name\":\"\\u9e4fv11\\u6d4b\\u8bd5\\u6f0f\\u6597\",\"quota_id\":30}"
+      },
+      {
+        "quota_id": "32",
+        "quota_name": "121",
+        "measures": "{\"steps\":[{\"event_name\":\"WebClick\",\"filter\":{\"relation\":\"and\",\"conditions\":[{\"field\":\"page_title\",\"function\":\"notEqual\",\"params\":[\"1\",\"\"]}]}},{\"event_name\":\"search\",\"filter\":{\"relation\":\"and\",\"conditions\":[{\"field\":\"page_title\",\"function\":\"notEqual\",\"params\":[\"3\",\"\"]}]}}]}",
+        "remarks": "212",
+        "config": "{\"username\":\"admin\",\"create_time\":\"2019-03-26\",\"update_time\":\"2019-03-26\",\"funnel_name\":\"\\u9e4fv2\\u6d4b\\u8bd5\\u6f0f\\u6597\",\"form_string\":\"{\\\"steps\\\":[{\\\"event_name\\\":\\\"WebClick\\\",\\\"filter\\\":{\\\"relation\\\":\\\"and\\\",\\\"conditions\\\":[{\\\"field\\\":\\\"page_title\\\",\\\"function\\\":\\\"notEqual\\\",\\\"params\\\":[\\\"1\\\",\\\"\\\"]}]}},{\\\"event_name\\\":\\\"search\\\",\\\"filter\\\":{\\\"relation\\\":\\\"and\\\",\\\"conditions\\\":[{\\\"field\\\":\\\"page_title\\\",\\\"function\\\":\\\"notEqual\\\",\\\"params\\\":[\\\"3\\\",\\\"\\\"]}]}}]}\",\"funnel_id\":\"27\",\"first_step\":\"\\u641c\\u7d22\\u4e8b\\u4ef6\",\"last_step\":\"\\u641c\\u7d22\\u4e8b\\u4ef6\",\"date\":[\"2019-03-20T15:11:00.160Z\",\"2019-03-26T15:11:00.160Z\"],\"kpi_type\":2,\"quota_name\":\"121\",\"quota_id\":32}"
+      },
+      {
+        "quota_id": "33",
+        "quota_name": "111111",
+        "measures": "{\"steps\":[{\"event_name\":\"WebClick\",\"filter\":{\"relation\":\"and\",\"conditions\":[{\"field\":\"page_title\",\"function\":\"notEqual\",\"params\":[\"1\",\"\"]}]}},{\"event_name\":\"search\",\"filter\":{\"relation\":\"and\",\"conditions\":[{\"field\":\"page_title\",\"function\":\"notEqual\",\"params\":[\"3\",\"\"]}]}}]}",
+        "remarks": "111111",
+        "config": "{\"username\":\"admin\",\"create_time\":\"2019-03-26\",\"update_time\":\"2019-03-26\",\"funnel_name\":\"\\u9e4fv2\\u6d4b\\u8bd5\\u6f0f\\u6597\",\"form_string\":\"{\\\"steps\\\":[{\\\"event_name\\\":\\\"WebClick\\\",\\\"filter\\\":{\\\"relation\\\":\\\"and\\\",\\\"conditions\\\":[{\\\"field\\\":\\\"page_title\\\",\\\"function\\\":\\\"notEqual\\\",\\\"params\\\":[\\\"1\\\",\\\"\\\"]}]}},{\\\"event_name\\\":\\\"search\\\",\\\"filter\\\":{\\\"relation\\\":\\\"and\\\",\\\"conditions\\\":[{\\\"field\\\":\\\"page_title\\\",\\\"function\\\":\\\"notEqual\\\",\\\"params\\\":[\\\"3\\\",\\\"\\\"]}]}}]}\",\"funnel_id\":\"27\",\"first_step\":\"\\u641c\\u7d22\\u4e8b\\u4ef6\",\"last_step\":\"\\u641c\\u7d22\\u4e8b\\u4ef6\",\"date\":[\"2019-03-26T15:15:21.739Z\",\"2019-03-26T15:15:21.739Z\"],\"kpi_type\":2,\"quota_name\":\"111111\",\"quota_id\":33}"
+      },
+      {
+        "quota_id": "35",
+        "quota_name": "1212",
+        "measures": "{\n    \"date\": [\n        \"2019-03-21T03:28:34.374Z\",\n        \"2019-03-27T03:28:34.374Z\"\n    ],\n    \"remainPeriod\": 1,\n    \"initialDeed_w\": \"浏览事件\",\n    \"initialStrainer\": {\n        \"event_name\": \"pageview\",\n        \"filter\": {\n            \"relation\": \"and\",\n            \"conditions\": []\n        }\n    },\n    \"followDeed_w\": \"点击事件\",\n    \"followStrainer\": {\n        \"event_name\": \"WebClick\",\n        \"filter\": {\n            \"relation\": \"and\",\n            \"conditions\": []\n        }\n    },\n    \"kpi_type\": 3,\n    \"type\": 2,\n    \"from_date\": \"2019-03-21\",\n    \"to_date\": \"2019-03-27\",\n    \"duration\": 1,\n    \"first_event\": {\n        \"event_name\": \"pageview\",\n        \"filter\": {\n            \"relation\": \"and\",\n            \"conditions\": []\n        }\n    },\n    \"second_event\": {\n        \"event_name\": \"WebClick\",\n        \"filter\": {\n            \"relation\": \"and\",\n            \"conditions\": []\n        }\n    },\n    \"unit\": \"day\"\n}",
+        "remarks": "312321321",
+        "config": "{\"date\":[\"2019-03-21T03:28:34.374Z\",\"2019-03-27T03:28:34.374Z\"],\"remainPeriod\":1,\"initialDeed_w\":\"\\u6d4f\\u89c8\\u4e8b\\u4ef6\",\"initialStrainer\":{\"event_name\":\"pageview\",\"filter\":{\"relation\":\"and\",\"conditions\":[]}},\"followDeed_w\":\"\\u70b9\\u51fb\\u4e8b\\u4ef6\",\"followStrainer\":{\"event_name\":\"WebClick\",\"filter\":{\"relation\":\"and\",\"conditions\":[]}},\"kpi_type\":3,\"type\":2,\"from_date\":\"2019-03-21\",\"to_date\":\"2019-03-27\",\"duration\":1,\"first_event\":{\"event_name\":\"pageview\",\"filter\":{\"relation\":\"and\",\"conditions\":[]}},\"second_event\":{\"event_name\":\"WebClick\",\"filter\":{\"relation\":\"and\",\"conditions\":[]}},\"unit\":\"day\",\"quota_name\":\"1212\",\"quota_id\":35}"
+      }
+    ]
+  },
+  {
+    "board_id": "3",
+    "board_name": "laoding",
+    "quota_data": [
+      {
+        "quota_id": "17",
+        "quota_name": "上海注册人数",
+        "measures": "{\n    \"from_date\": \"2019-03-26\",\n    \"to_date\": \"2019-03-26\",\n    \"event_type\": 2,\n    \"chart_type\": \"linear_graph\",\n    \"unit\": \"day\",\n    \"kpi_type\": 1,\n    \"measures\": [\n        {\n            \"event_name\": \"signup\",\n            \"aggregator\": \"unique\",\n            \"filter\": {\n                \"conditions\": [\n                    {\n                        \"field\": \"city\",\n                        \"function\": \"equal\",\n                        \"params\": [\n                            \"上海\",\n                            \"\"\n                        ]\n                    }\n                ],\n                \"relation\": \"or\"\n            }\n        }\n    ]\n}",
+        "remarks": "上海注册人数",
+        "config": "{\n    \"name\": \"上海注册人数\",\n    \"dateRange\": [\n        \"2019-03-26T12:31:25.409Z\",\n        \"2019-03-26T12:31:25.409Z\"\n    ],\n    \"unit\": \"day\",\n    \"showWay\": \"linear_graph\",\n    \"showSize\": \"中\",\n    \"from_date\": \"2019-03-26\",\n    \"to_date\": \"2019-03-26\"\n}"
+      },
+      {
+        "quota_id": "36",
+        "quota_name": "上海地区搜索ppt的用户数",
+        "measures": "{\n    \"from_date\": \"2019-03-27\",\n    \"to_date\": \"2019-03-27\",\n    \"event_type\": 2,\n    \"chart_type\": \"linear_graph\",\n    \"unit\": \"day\",\n    \"kpi_type\": 1,\n    \"measures\": [\n        {\n            \"event_name\": \"search\",\n            \"aggregator\": \"unique\",\n            \"filter\": {\n                \"conditions\": [\n                    {\n                        \"field\": \"search_keywords\",\n                        \"function\": \"contain\",\n                        \"params\": [\n                            \"ppt\",\n                            \"\"\n                        ]\n                    },\n                    {\n                        \"field\": \"city\",\n                        \"function\": \"equal\",\n                        \"params\": [\n                            \"上海\",\n                            \"\"\n                        ]\n                    }\n                ],\n                \"relation\": \"or\"\n            }\n        }\n    ]\n}",
+        "remarks": "上海地区搜索ppt的用户数",
+        "config": "{\n    \"name\": \"上海地区搜索ppt的用户数\",\n    \"dateRange\": [\n        \"2019-03-27T09:42:19.443Z\",\n        \"2019-03-27T09:42:19.443Z\"\n    ],\n    \"unit\": \"day\",\n    \"showWay\": \"linear_graph\",\n    \"showSize\": \"中\",\n    \"from_date\": \"2019-03-27\",\n    \"to_date\": \"2019-03-27\"\n}"
+      },
+      {
+        "quota_id": "19",
+        "quota_name": "上海地区搜索-点击-下载",
+        "measures": "{\"steps\":[{\"event_name\":\"search\",\"filter\":{\"relation\":\"and\",\"conditions\":[{\"field\":\"city\",\"function\":\"equal\",\"params\":[\"上海\",\"\"]}]}},{\"event_name\":\"WebClick\",\"filter\":{\"relation\":\"and\",\"conditions\":[{\"field\":\"\",\"function\":\"\",\"params\":[null,\"\"]}]}},{\"event_name\":\"finish_download\",\"filter\":{\"relation\":\"and\",\"conditions\":[{\"field\":\"\",\"function\":\"\",\"params\":[null,\"\"]}]}}]}",
+        "remarks": "上海地区搜索-点击-下载",
+        "config": "{\"username\":\"admin\",\"create_time\":\"2019-03-26\",\"update_time\":\"2019-03-26\",\"funnel_name\":\"上海地区的搜索-点击-下载\",\"form_string\":\"{\\\"steps\\\":[{\\\"event_name\\\":\\\"search\\\",\\\"filter\\\":{\\\"relation\\\":\\\"and\\\",\\\"conditions\\\":[{\\\"field\\\":\\\"city\\\",\\\"function\\\":\\\"equal\\\",\\\"params\\\":[\\\"上海\\\",\\\"\\\"]}]}},{\\\"event_name\\\":\\\"WebClick\\\",\\\"filter\\\":{\\\"relation\\\":\\\"and\\\",\\\"conditions\\\":[{\\\"field\\\":\\\"\\\",\\\"function\\\":\\\"\\\",\\\"params\\\":[null,\\\"\\\"]}]}},{\\\"event_name\\\":\\\"finish_download\\\",\\\"filter\\\":{\\\"relation\\\":\\\"and\\\",\\\"conditions\\\":[{\\\"field\\\":\\\"\\\",\\\"function\\\":\\\"\\\",\\\"params\\\":[null,\\\"\\\"]}]}}]}\",\"funnel_id\":\"28\",\"first_step\":\"搜索事件\",\"last_step\":\"成功下载事件\",\"date\":[\"2019-03-20T12:38:43.655Z\",\"2019-03-26T12:38:43.655Z\"]}"
+      },
+      {
+        "quota_id": "35",
+        "quota_name": "1212",
+        "measures": "{\n    \"date\": [\n        \"2019-03-21T03:28:34.374Z\",\n        \"2019-03-27T03:28:34.374Z\"\n    ],\n    \"remainPeriod\": 1,\n    \"initialDeed_w\": \"浏览事件\",\n    \"initialStrainer\": {\n        \"event_name\": \"pageview\",\n        \"filter\": {\n            \"relation\": \"and\",\n            \"conditions\": []\n        }\n    },\n    \"followDeed_w\": \"点击事件\",\n    \"followStrainer\": {\n        \"event_name\": \"WebClick\",\n        \"filter\": {\n            \"relation\": \"and\",\n            \"conditions\": []\n        }\n    },\n    \"kpi_type\": 3,\n    \"type\": 2,\n    \"from_date\": \"2019-03-21\",\n    \"to_date\": \"2019-03-27\",\n    \"duration\": 1,\n    \"first_event\": {\n        \"event_name\": \"pageview\",\n        \"filter\": {\n            \"relation\": \"and\",\n            \"conditions\": []\n        }\n    },\n    \"second_event\": {\n        \"event_name\": \"WebClick\",\n        \"filter\": {\n            \"relation\": \"and\",\n            \"conditions\": []\n        }\n    },\n    \"unit\": \"day\"\n}",
+        "remarks": "312321321",
+        "config": "{\"date\":[\"2019-03-21T03:28:34.374Z\",\"2019-03-27T03:28:34.374Z\"],\"remainPeriod\":1,\"initialDeed_w\":\"\\u6d4f\\u89c8\\u4e8b\\u4ef6\",\"initialStrainer\":{\"event_name\":\"pageview\",\"filter\":{\"relation\":\"and\",\"conditions\":[]}},\"followDeed_w\":\"\\u70b9\\u51fb\\u4e8b\\u4ef6\",\"followStrainer\":{\"event_name\":\"WebClick\",\"filter\":{\"relation\":\"and\",\"conditions\":[]}},\"kpi_type\":3,\"type\":2,\"from_date\":\"2019-03-21\",\"to_date\":\"2019-03-27\",\"duration\":1,\"first_event\":{\"event_name\":\"pageview\",\"filter\":{\"relation\":\"and\",\"conditions\":[]}},\"second_event\":{\"event_name\":\"WebClick\",\"filter\":{\"relation\":\"and\",\"conditions\":[]}},\"unit\":\"day\",\"quota_name\":\"1212\",\"quota_id\":35}"
+      },
+      {
+        "quota_id": "37",
+        "quota_name": "222222",
+        "measures": "{\"steps\":[{\"event_name\":\"pageview\",\"filter\":{\"relation\":\"and\",\"conditions\":[{\"field\":\"\",\"function\":\"\",\"params\":[null,\"\"]}]}},{\"event_name\":\"WebClick\",\"filter\":{\"relation\":\"and\",\"conditions\":[{\"field\":\"\",\"function\":\"\",\"params\":[null,\"\"]}]}}]}",
+        "remarks": "2",
+        "config": "{\"username\":\"admin\",\"create_time\":\"2019-03-26\",\"update_time\":\"2019-03-26\",\"funnel_name\":\"\\u54c8\\u54c8\\u54c8\",\"form_string\":\"{\\\"steps\\\":[{\\\"event_name\\\":\\\"pageview\\\",\\\"filter\\\":{\\\"relation\\\":\\\"and\\\",\\\"conditions\\\":[{\\\"field\\\":\\\"\\\",\\\"function\\\":\\\"\\\",\\\"params\\\":[null,\\\"\\\"]}]}},{\\\"event_name\\\":\\\"WebClick\\\",\\\"filter\\\":{\\\"relation\\\":\\\"and\\\",\\\"conditions\\\":[{\\\"field\\\":\\\"\\\",\\\"function\\\":\\\"\\\",\\\"params\\\":[null,\\\"\\\"]}]}}]}\",\"funnel_id\":\"24\",\"first_step\":\"\\u641c\\u7d22\\u4e8b\\u4ef6\",\"last_step\":\"\\u70b9\\u51fb\\u4e8b\\u4ef6\",\"date\":[\"2019-03-28T10:38:18.649Z\",\"2019-03-28T10:38:18.649Z\"],\"kpi_type\":2,\"quota_name\":\"222222\",\"quota_id\":37}"
+      }
+    ]
+  },
+  {
+    "board_id": "4",
+    "board_name": "次日留存率",
+    "quota_data": [
+      {
+        "quota_id": "38",
+        "quota_name": "次日留存率",
+        "measures": "{\n    \"from_date\": \"2019-04-01\",\n    \"to_date\": \"2019-04-08\",\n    \"event_type\": 2,\n    \"chart_type\": \"linear_graph\",\n    \"unit\": \"day\",\n    \"kpi_type\": 1,\n    \"measures\": [\n        {\n            \"event_name\": \"pageview\",\n            \"aggregator\": \"unique\",\n            \"filter\": {\n                \"conditions\": [\n                    {\n                        \"field\": \"user.register_time\",\n                        \"function\": \"between\",\n                        \"params\": [\n                            \"20190401\",\n                            \"20190401\"\n                        ]\n                    }\n                ],\n                \"relation\": \"or\"\n            }\n        }\n    ]\n}",
+        "remarks": "注册用户次日留存",
+        "config": "{\n    \"name\": \"次日留存率\",\n    \"dateRange\": [\n        \"2019-03-31T16:00:00.000Z\",\n        \"2019-04-07T16:00:00.000Z\"\n    ],\n    \"unit\": \"day\",\n    \"showWay\": \"linear_graph\",\n    \"showSize\": \"中\",\n    \"from_date\": \"2019-04-01\",\n    \"to_date\": \"2019-04-08\"\n}"
+      }
+    ]
+  }
+]
