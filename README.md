@@ -1,4 +1,4 @@
-参考 (vue-cli-mock)[https://github.com/carrotz/vue-cli-mock] ;
+引自 (vue-cli-mock)[https://github.com/carrotz/vue-cli-mock] 进行再创作;
 
 表示非常感谢 @carrotz
 
