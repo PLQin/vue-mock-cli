@@ -2,7 +2,7 @@
   "name": "vue-mock-cli",
   "version": "1.0.0",
   "description": "vue-cli vs mock data",
-  "author": "CarrotZ",
+  "author": "PLQin",
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",
