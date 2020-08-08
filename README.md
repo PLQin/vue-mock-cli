@@ -20,6 +20,21 @@
 </p>
 
 
+## 😜 功能与配置
+
+- 监听多文件    
+  更新 `mock` 目录下文件的内容后手动刷新页面即可, 核心代码 :   
+  ```json
+  // package.json
+  "scripts": {
+
+    // 特殊情况需要使用单引号(或者反引号?) nodemon --watch mock --exec 'json-server mock/index.js --port 3020 --m mock/post-to-get.js'
+    "mock": "nodemon --watch mock --exec json-server mock/index.js --port 3020 --m mock/post-to-get.js",
+
+  }
+  ```
+
+
 ## 😁 所有命令
 
 ``` bash
@@ -144,16 +159,3 @@ json server 使用 [RESTful 架构](http://www.ruanyifeng.com/blog/2011/09/restf
 代码中添加请求以测试效果
 
 ![](http://upload-images.jianshu.io/upload_images/1651860-0206a52db3368cfc.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
-
-
-## \# 监听多文件
-
-更新 `mock` 目录下文件的内容后手动刷新页面即可, 核心代码 : 
-```
-// package.json
-"scripts": {
-  "mock": "nodemon --watch mock --exec json-server mock/index.js --port 3020 --m mock/post-to-get.js",
-  // 特殊情况需要使用单引号(或者反引号?) nodemon --watch mock --exec 'json-server mock/index.js --port 3020 --m mock/post-to-get.js'
-}
-```
