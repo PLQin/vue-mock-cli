@@ -1,4 +1,5 @@
-引自 (vue-cli-mock)[https://github.com/carrotz/vue-cli-mock] 进行再创作;
+
+引自 [vue-cli-mock](https://github.com/carrotz/vue-cli-mock) 进行再创作;
 
 表示非常感谢 @carrotz
 
@@ -19,40 +20,39 @@
 </p>
 
 
-[TOC]
-
-# vue-mock-cli
-vue-cli 添加本地mock服务框架
+## 😁 所有命令
 
 ``` bash
 # install dependencies
 npm install
 
-# serve with hot reload at localhost:8080
+# serve with hot reload at
 npm run dev
 
 # build for production with minification
 npm run build
 
-# run mock serve localhost:3020
+# run mock serve 
+# access to specific approaches such as: http://localhost:3020/posts can get the data
 npm run mock
 
 # run serve with mock serve
 npm run mockdev
 ```
 
-# mock目录
+
+## \# 目录结构
 ```
 └── mock/                 # mock配置目录
-    └── index.js          # mock数据出口
-    └── post-to-get.js    # post映射为get中间件
+  └── index.js          # mock数据出口
+  └── post-to-get.js    # post映射为get中间件
 ```
 
-# 说明
+## \# 说明
 [JSON Server](https://github.com/typicode/json-server) 是一个创建伪RESTful服务器的工具，具体使用方法可以看官方文档，这里直接讲在vue-cli 中的用法。
 
 
-### \# 配置流程
+## \# 配置流程
 - 全局安装 ``$ npm install -g json-server``
 - 项目目录下创建 ``mock`` 文件夹
 - ``mock`` 文件夹下添加 ``db.json`` 文件，内容如下
@@ -77,15 +77,7 @@ npm run mockdev
   ```
 
 
-### \# 启动 mock 服务器
-
-``$ npm run mock`` 命令 运行 mock server
-访问 http://localhost:3020/
-
-GET请求具体路径 如：http://localhost:3020/posts 可获取数据
-
-
-### \# mockjs.js 批量生成伪数据
+## \# mockjs.js 批量生成伪数据
 
 如果需要大量的伪数据，手动构造比较费时费力，可以使用 [mockjs](http://mockjs.com/examples.html) 批量生成。mockjs.js 的具体使用参见官方文档，这里做一个示例。
 
@@ -120,7 +112,7 @@ GET请求具体路径 如：http://localhost:3020/posts 可获取数据
 请求 http://localhost:3020/address 可以获取到随机生成的伪数据
 
 
-### \# 添加中间件
+## \# 添加中间件
 
 json server 使用 [RESTful 架构](http://www.ruanyifeng.com/blog/2011/09/restful)，GET请求可以获取数据，POST 请求则是添加数据。
 
@@ -144,7 +136,7 @@ json server 使用 [RESTful 架构](http://www.ruanyifeng.com/blog/2011/09/restf
 
 其他需求也可以通过添加不同的中间件实现。
 
-### \# 代理设置
+## \# 代理设置
 在 ``config/index.js`` 的 ``proxyTable`` 将请求映射到 http://localhost:3020
 
 ![](http://upload-images.jianshu.io/upload_images/1651860-1629801bae740557.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
@@ -155,7 +147,7 @@ json server 使用 [RESTful 架构](http://www.ruanyifeng.com/blog/2011/09/restf
 
 
 
-### \# 监听多文件
+## \# 监听多文件
 
 更新 `mock` 目录下文件的内容后手动刷新页面即可, 核心代码 : 
 ```
